@@ -114,9 +114,9 @@ export default class Line extends PureComponent {
 
     return (
       <Fragment>
-        <View>
+        {/* <View>
           {this.props.left}
-          </View>
+          </View> */}
         <View style={[styles.topContainer, topContainerStyle]} pointerEvents='none'>
           <Animated.View style={[styles.topLineContainer, topLineContainerStyle]}>
             <Animated.View style={[styles.borderTop, lineStyle]} />
